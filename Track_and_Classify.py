@@ -11,10 +11,10 @@ def main():
     and track vehicles in the video.
     """
     # Load the YOLOv8 model
-    model = YOLO("yolov8_aug.pt")
+    model = YOLO("your-model-path")
 
     # Open the video file
-    video_path = "Dynamic_velocity_test1.mp4"
+    video_path = "your-video-path"
     cap = cv2.VideoCapture(video_path)
 
     # Check if the video file opened successfully
